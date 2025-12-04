@@ -1,21 +1,24 @@
-Step 1 — Folder Structure
+# Step 1 — Folder Structure
 
-Project folder task 9-10 ke andar .claudecode create karein, phir skills/ ke andar 3 skill folders:
-
+Project folder **task 9-10** ke andar `.claudecode` create karein, phir `skills/` ke andar 3 skill folders:
 task 9-10/
 └─ .claudecode/
-   └─ skills/
-      ├─ summary-maker/
-      │   └─ SKILL.md
-      ├─ translation-helper/
-      │   └─ SKILL.md
-      └─ code-linter/
-          └─ SKILL.md
+└─ skills/
+├─ summary-maker/
+│ └─ SKILL.md
+├─ translation-helper/
+│ └─ SKILL.md
+└─ code-linter/
+└─ SKILL.md
 
-          Step 2 — SKILL.md Content Template
+
+---
+
+# Step 2 — SKILL.md Content Template
 
 Har skill ke liye ye template use karein:
 
+```md
 # Skill Name: <Skill Name>
 **Description:** <Short description of the skill>
 
@@ -38,11 +41,9 @@ Notes:
 
 ---
 
-# **Step 3 — Example SKILL.md for Each Skill**
+# Step 3 — Example SKILL.md for Each Skill
 
----
-
-## **1. summary-maker/SKILL.md**
+## 1. summary-maker/SKILL.md
 
 ```md
 # Skill Name: Summary Maker
@@ -68,10 +69,9 @@ Works best with coherent paragraphs
 
 Can be reused for multiple chapters or articles
 
-
 ---
 
-## **2. translation-helper/SKILL.md**
+## 2. translation-helper/SKILL.md
 
 ```md
 # Skill Name: Translation Helper
@@ -94,7 +94,7 @@ handle({"text": "Hello World", "target_language": "ur"})
 
 ---
 
-## **3. code-linter/SKILL.md**
+## 3. code-linter/SKILL.md
 
 ```md
 # Skill Name: Code Linter
@@ -115,28 +115,25 @@ Helps developers ensure clean, readable, and error-free code for book or project
 ```python
 handle({"code": "print('Hello'", "language": "python"})
 
-
 Notes:
 
 Supports multiple languages
 
 Does not execute code, only analyzes
 
-
 ---
 
-# **Step 4 — Create Agents Directory**
+# Step 4 — Create Agents Directory
 
 Project folder → `.claudecode` → new folder:
-claudecode/
+
+.claudecode/
 agents/
 
 
 ---
 
-# **Step 5 — Create 3 Agent Files**
-
-
+# Step 5 — Create 3 Agent Files
 
 .claudecode/
 agents/
@@ -147,11 +144,9 @@ orchestrator-agent.md
 
 ---
 
-# **Step 6 — Agent Descriptions**
+# Step 6 — Agent Descriptions
 
----
-
-## **1. writing-sub-agent.md**
+## 1. writing-sub-agent.md
 
 ```md
 # Agent Name: Writing Sub-Agent
@@ -192,3 +187,4 @@ Reflection Summary
 I created a full ClaudeCode skills and agents system.
 Three skills (Summary Maker, Translation Helper, Code Linter) and three agents (Writing, Editing, Orchestrator) were added with proper documentation.
 This improved understanding of modular AI tools, multi-agent workflows, and reusable skill structures for book automation.
+
